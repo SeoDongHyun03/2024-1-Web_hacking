@@ -47,3 +47,7 @@ $where : 인자로 전달한 Javascript 표현식을 만족하는 데이터를 �
 ## Blind NoSQLi 실습 풀이  
 <img src="17.jpg">  풀이를 보던 중 **{"$regex":".{5}"}** 등을 통해 길이를 알 수 있다는 것을 알았습니다.  
 # 퀴즈  
+1. Blind NoSQL Injection 실습 모듈에서 획득한 admin의 비밀번호는 (A) 이다.  
+답 : apple  
+2. MongoDB는 데이터의 자료형으로 오브젝트와 배열을 사용할 수 있다.  
+답 : O  
