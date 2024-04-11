@@ -58,12 +58,9 @@ Values(
 ```
 위는 Board 테이블에 데이터를 삽입하는 쿼리문  
 ```SQL
-SELECT 
-  boardTitle, boardContent
-FROM
-  Board
-Where
-  idx=1;
+SELECT boardTitle, boardContent
+FROM Board
+Where idx=1;
 ```
 위는 Board 테이블의 데이터를 조회하는 쿼리문  
 ```SQL
