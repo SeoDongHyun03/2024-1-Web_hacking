@@ -59,7 +59,7 @@ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like 
 ```
 http://127.0.0.1:8000/image_downloader?image_url=http://127.0.0.1:8000/request_info
 ```
-위 경로에 접속하면, 브라우저 정보가 **python-requests/<LIBRARY_VERSION>**인 것을 확인할 수 있다.  
+위 경로에 접속하면, 브라우저 정보가 **python-requests/<LIBRARY_VERSION>** 인 것을 확인할 수 있다.  
 이전에 적은 것처럼, request_info 에 접속하면, User-agent 가 반환된다.  
 그래서 image_downloader 에서 request_info 의 반환값을 출력하길 바랬지만, 실제로는 **python-requests 가 출력**됐다.  
 이유는 **웹 서비스에서 HTTP 요청을 보냈기 때문**이다.  
